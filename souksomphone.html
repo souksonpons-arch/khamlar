@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Danh sách lớp D40ANM Lào</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  #loginForm {
+    margin-top: 100px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 6px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+</head>
+<body>
+
+
+
+<div id="loginForm">
+  <h2>Danh sách lớp D40ANM Lào</h2>
+  <p>Nhập mã truy cập:</p>
+  <input type="password" id="password" placeholder="Nhập mã...">
+  <button onclick="checkPassword()">Tiếp tục</button>
+</div>
+
+
+<div id="content" style="display:none;">
+  <div style="display: flex; align-items: flex-start;">
+    <img src="Logo_hoc_vien_ANND.jpg"
+         alt="Logo"
+         style="width: 400px; height: 550px; margin-right: 100px;">
+    <div>
+      <h2>Danh sách Lớp D40ANM</h2>
+
+      <table style="width:100%">
+        <tr>
+          <th>STT</th>
+          <th>Họ và Tên</th>
+          <th>Quê quán</th>
+          <th>Lớp học</th>
+        </tr>
+        <tr><td>1</td><td><a href="images/471172903_941838927840695_4517406489935184786_n.jpg" target="_blank">Sonesavanh Vongphatay</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>2</td><td><a href="images/631b447a-aca0-4a87-8771-bb22bd5558ef.jpg" target="_blank">Souksomphone Boutsakone</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>3</td><td><a href="images/537738441_122222785916180424_6088724698361706323_n.jpg" target="_blank">Vansana Xayyavong</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>4</td><td><a href="images/484150583_651924757380937_7702219395264471740_n.jpg" target="_blank">Bounsern Xaisomphou</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>5</td><td><a href="images/518308733_1457840265371155_1312037250463881147_n.jpg" target="_blank">Phoutthasack Xayyalath</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>6</td><td><a href="images/475302411_1320635638983714_7118910138793909133_n.jpg" target="_blank">Vongsakda Lattana</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>7</td><td><a href="images/soukphaphone.jpg" target="_blank">Soukphaphone Khotvongsy</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>8</td><td><a href="images/486468147_1134019405193708_447876580658370216_n.jpg" target="_blank">Syamphai Phongvichit</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>9</td><td><a href="images/latsouda.jpg" target="_blank">Latsouda Khaithavisouk</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>10</td><td><a href="images/latdavanh.jpg" target="_blank">Latdavanh Duangkhum</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>11</td><td><a href="images/473573898_1558989994817031_8532858237841134879_n.jpg" target="_blank">Anousone Phetphana</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>12</td><td><a href="images/503578930_122132749112662810_2894837218621656087_n.jpg" target="_blank">Phetsone Sinvongsa</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>13</td><td><a href="images/484102095_1647126466685806_5508307286180721989_n.jpg" target="_blank">Phetdaphone Bounlieng</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>14</td><td><a href="images/515436003_1914028079350410_836477260441985043_n.jpg" target="_blank">Phanouvong Sysouphanthong</a></td><td>Laos</td><td>D40ANM</td></tr>
+        <tr><td>15</td><td><a href="images/475764933_1118013800068044_2251360344170734967_n.jpg" target="_blank">Phongsakone Vannasit</a></td><td>Laos</td><td>D40ANM</td></tr>
+      </table>
+
+      <p>Chúc các bạn học tốt.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+function checkPassword() {
+  var password = document.getElementById("password").value;
+  if (password === "12345678") {
+    document.getElementById("loginForm").style.display = "none";
+    document.getElementById("content").style.display = "block";
+  } else {
+    alert("Sai mã truy cập! Vui lòng thử lại.");
+  }
+}
+</script>
+
+</body>
+</html>
